@@ -1,0 +1,81 @@
+html, body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+      background-color: #EAEAEE;
+      margin: 0;
+      padding: 40px 0;
+      font-family: 'Courier Prime', Courier, monospace;
+    }
+
+    .carousel-window {
+      border: 4px solid #1470AF;
+      box-shadow: 10px 10px 0 #1470AF;
+      background: white;
+      margin-top: 20px;
+      width: 100%;
+      max-width: 560px;
+    }
+
+    .carousel-title-bar {
+      background: #1470AF;
+      color: white;
+      padding: 10px;
+      font-weight: bold;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .carousel-title-bar .buttons {
+      display: flex;
+      gap: 5px;
+    }
+
+    .carousel-title-bar .buttons div {
+      width: 12px;
+      height: 12px;
+      background: white;
+      border: 2px solid #1470AF;
+    }
+
+    .carousel {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .carousel img {
+      width: 100%;
+      max-width: 480px;
+      height: 300px;
+      object-fit: cover;
+      border: 2px solid #1470AF;
+      box-shadow: 4px 4px 0 #1470AF;
+      background-color: #FFFFFF;
+    }
+
+    .nav {
+      background-color: #FFFFFF;
+      border: 2px solid #1470AF;
+      box-shadow: 4px 4px 0 #1470AF;
+      color: #1470AF;
+      font-size: 1.5rem;
+      padding: 10px;
+      cursor: pointer;
+      margin: 0 10px;
+      transition: all 0.1s ease;
+    }
+
+    .nav:active {
+      box-shadow: 1px 1px 0 #1470AF;
+      transform: translate(3px, 3px);
+    }
+
+    a {
+      text-decoration: none;
+    }
