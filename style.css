@@ -6,7 +6,7 @@ html, body {
       min-height: 100vh;
       background-color: #EAEAEE;
       margin: 0;
-      padding: 40px 0;
+      padding: 20px 0;
       font-family: 'Courier Prime', Courier, monospace;
     }
 
@@ -16,7 +16,7 @@ html, body {
       background: white;
       margin-top: 20px;
       width: 100%;
-      max-width: 560px;
+      max-width: 460px;
     }
 
     .carousel-title-bar {
