@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
       const slides = [
         {
-          src: "https://via.placeholder.com/500x300?text=Image+1",
-          link: "https://example.com/page1"
+          src: "https://images.squarespace-cdn.com/content/686b137649e6ef6f1bbbe325/0c26bc8a-e48b-44e4-84d2-a1b8a43602e7/WhimsyAHairSalon.png?content-type=image%2Fpng",
+          link: "https://whimsy-ahairsalon.square.site/"
         },
         {
           src: "https://via.placeholder.com/500x300?text=Image+2",
