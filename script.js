@@ -12,9 +12,6 @@ document.addEventListener("DOMContentLoaded", () => {
           src: "https://via.placeholder.com/500x300?text=Image+3",
           link: "https://example.com/page3"
         }
-    src: "https://via.placeholder.com/500x300?text=Image+4",
-          link: "https://example.com/page4"
-        }
 
       ];
 
