@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
           link: "https://whimsy-ahairsalon.square.site/"
         },
         {
-          src: "https://images.squarespace-cdn.com/content/686b137649e6ef6f1bbbe325/973b290a-fcbb-47dd-825b-b51aaa613a2d/logo.png?content-type=image%2Fpng",
+          src: "https://images.squarespace-cdn.com/content/686b137649e6ef6f1bbbe325/85df8771-7533-43ac-ad8c-ee051e5ddecb/MoffittSmith.png?content-type=image%2Fpng",
           link: "https://www.moffitt-smith.net/"
         },
         {
