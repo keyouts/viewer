@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
           link: "https://www.moffitt-smith.net/"
         },
         {
-          src: "https://images.squarespace-cdn.com/content/686b137649e6ef6f1bbbe325/e2d43826-01b9-4db6-b323-4dc473ef913b/RecordSmith.png?content-type=image%2Fpng",
+          src: "https://images.squarespace-cdn.com/content/686b137649e6ef6f1bbbe325/199b639e-f4ca-4e30-a5e3-3478a9bc5891/RecordSmith.png?content-type=image%2Fpng",
           link: "https://www.recordsmithofpennsylvania.com/"
         }
 
