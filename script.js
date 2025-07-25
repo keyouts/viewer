@@ -15,12 +15,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
       let current = 0;
       const imgEl = document.getElementById("carousel-image");
-      const linkEl = document.getElementById("carousel-link");
+      <img id="carousel-image">
+
 
       function showSlide(index) {
         current = (index + slides.length) % slides.length;
         imgEl.src = slides[current].src;
-        linkEl.href = slides[current].link;
       }
 
       document.querySelector(".nav.right").addEventListener("click", () => {
