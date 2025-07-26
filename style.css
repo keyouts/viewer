@@ -22,7 +22,7 @@ html, body {
 .carousel-title-bar {
   background: #1470AF;
   color: white;
-  padding: 10px; /* 🔧 matches viewer header */
+  padding: 10px; 
   font-weight: bold;
   display: flex;
   justify-content: space-between;
