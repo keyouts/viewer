@@ -15,7 +15,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
       let current = 0;
       const imgEl = document.getElementById("carousel-image");
-      <img id="carousel-image">
 
 
       function showSlide(index) {
