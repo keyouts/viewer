@@ -22,7 +22,7 @@ html, body {
 .carousel-title-bar {
   background: #1470AF;
   color: white;
-  padding: 20px;
+  padding: 10px; /* 🔧 matches viewer header */
   font-weight: bold;
   display: flex;
   justify-content: space-between;
@@ -46,13 +46,15 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
-  flex-wrap: wrap; /* ✅ Keeps layout from breaking with wide images */
+  padding: 16px; /* 🔧 tightened up a bit */
+  flex-wrap: nowrap; /* 🔧 prevent overflow */
+  gap: 10px;
+  box-sizing: border-box;
 }
 
 .carousel img {
   display: block;
-  max-width: calc(100% - 80px); 
+  max-width: 240px; /* 🔧 room for arrows */
   height: auto;
   object-fit: contain;
   border: 2px solid #1470AF;
@@ -81,4 +83,5 @@ html, body {
 a {
   text-decoration: none;
 }
+
 
