@@ -47,16 +47,18 @@ html, body {
   align-items: center;
   justify-content: center;
   padding: 20px;
+  flex-wrap: wrap; /* ✅ Keeps layout from breaking with wide images */
 }
 
 .carousel img {
   display: block;
-  max-width: 100%;
+  max-width: calc(100% - 80px); 
   height: auto;
   object-fit: contain;
   border: 2px solid #1470AF;
   box-shadow: 4px 4px 0 #1470AF;
   background-color: #FFFFFF;
+  pointer-events: none;
 }
 
 .nav {
@@ -79,5 +81,4 @@ html, body {
 a {
   text-decoration: none;
 }
-
 
