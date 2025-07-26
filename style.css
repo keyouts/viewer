@@ -54,7 +54,7 @@ html, body {
 
 .carousel img {
   display: block;
-  max-width: 240px;
+  max-width: 190px;
   height: auto;
   object-fit: contain;
   border: 2px solid #1470AF;
@@ -83,5 +83,3 @@ html, body {
 a {
   text-decoration: none;
 }
-
-
