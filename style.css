@@ -59,10 +59,12 @@ iframe:focus {
 }
 
 .carousel img {
-  display: block;
+  width: 100%;
   max-width: 190px;
+  height: auto;
   max-height: 190px;
   object-fit: contain;
+  display: block;
   border: 2px solid #1470AF;
   box-shadow: 4px 4px 0 #1470AF;
   background-color: #FFFFFF;
