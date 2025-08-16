@@ -14,8 +14,6 @@ iframe:focus {
   outline: none;
 }
 
-
-
 .carousel-window {
   border: 4px solid #1470AF;
   box-shadow: 10px 10px 0 #1470AF;
@@ -88,6 +86,12 @@ iframe:focus {
   transform: translate(3px, 3px);
 }
 
+.nav:focus {
+  outline: 2px dashed #1470AF;
+  outline-offset: 2px;
+}
+
 a {
   text-decoration: none;
 }
+
