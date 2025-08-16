@@ -3,7 +3,7 @@ html, body {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  min-height: 100vh;
+  height: auto;
   background-color: #EAEAEE;
   margin: 0;
   padding: 20px 0;
