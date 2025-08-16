@@ -23,10 +23,11 @@ document.addEventListener("DOMContentLoaded", () => {
   let current = 0;
   const imgEl = document.getElementById("carousel-image");
 
-  function showSlide(index) {
-    current = (index + slides.length) % slides.length;
-    imgEl.src = slides[current].src;
-  }
+function showSlide(index) {
+  current = (index + slides.length) % slides.length;
+  imgEl.src = slides[current].src;
+  imgEl.alt = slides[current].alt;
+}
 
   document.querySelector(".nav.right").addEventListener("click", () => {
     showSlide(current + 1);
