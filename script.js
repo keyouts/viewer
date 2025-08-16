@@ -8,6 +8,9 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       src: "https://images.squarespace-cdn.com/content/686b137649e6ef6f1bbbe325/199b639e-f4ca-4e30-a5e3-3478a9bc5891/RecordSmith.png?content-type=image%2Fpng",
+    },
+    {
+      src: "https://images.squarespace-cdn.com/content/686b137649e6ef6f1bbbe325/3d60cdfa-1484-40f4-9e64-01dd1cbc8461/KeystoneILogo.png?content-type=image%2Fpng",
     }
   ];
 
