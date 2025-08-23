@@ -27,8 +27,8 @@ iframe:focus {
 }
 
 .carousel-window {
-  border: 4px solid #1470AF;
-  box-shadow: 10px 10px 0 #1470AF;
+  border: 4px solid #105584;
+  box-shadow: 10px 10px 0 #105584;
   background: white;
   margin-top: 20px;
   width: 100%;
@@ -36,7 +36,7 @@ iframe:focus {
 }
 
 .carousel-title-bar {
-  background: #1470AF;
+  background: #105584;
   color: white;
   padding: 10px;
   font-weight: bold;
@@ -54,7 +54,7 @@ iframe:focus {
   width: 12px;
   height: 12px;
   background: white;
-  border: 2px solid #1470AF;
+  border: 2px solid #105584;
 }
 
 .carousel {
@@ -75,16 +75,16 @@ iframe:focus {
   max-height: 190px;
   object-fit: contain;
   display: block;
-  border: 2px solid #1470AF;
-  box-shadow: 4px 4px 0 #1470AF;
+  border: 2px solid #105584;
+  box-shadow: 4px 4px 0 #105584;
   background-color: #FFFFFF;
   pointer-events: none;
 }
 
 .nav {
   background-color: #FFFFFF;
-  border: 2px solid #1470AF;
-  box-shadow: 4px 4px 0 #1470AF;
+  border: 2px solid #105584;
+  box-shadow: 4px 4px 0 #105584;
   color: #1470AF;
   font-size: 1.5rem;
   padding: 10px;
@@ -94,12 +94,12 @@ iframe:focus {
 }
 
 .nav:active {
-  box-shadow: 1px 1px 0 #1470AF;
+  box-shadow: 1px 1px 0 #105584;
   transform: translate(3px, 3px);
 }
 
 .nav:focus {
-  outline: 2px dashed #1470AF;
+  outline: 2px dashed #105584;
   outline-offset: 2px;
 }
 
